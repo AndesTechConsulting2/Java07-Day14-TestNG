@@ -4,10 +4,11 @@
 
 
 <suite name="ClassWork03" >
-    <parameter name="fname" value="src/test/resources/testdata1.txt" />
-    <parameter name="fname_n" value="src/test/resources/testdata2.txt" />
+
+
 
 <test name="PositiveTest">
+    <parameter name="fname" value="src/test/resources/testdata1.txt" />
     <groups>
         <run>
             <include name="positiveTest" />
@@ -18,7 +19,9 @@
     </classes>
 </test>
 
+
     <test name="NegativeTest">
+        <parameter name="fname" value="src/test/resources/testdata2.txt" />
         <groups>
             <run>
                 <include name="negativeTest" />
