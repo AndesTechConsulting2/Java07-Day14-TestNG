@@ -5,19 +5,17 @@
 
 <suite name="ClassWork03" >
 
-
-
-<test name="PositiveTest">
-    <parameter name="fname" value="src/test/resources/testdata1.txt" />
-    <groups>
-        <run>
-            <include name="positiveTest" />
-        </run>
-    </groups>
-    <classes>
-        <class name="org.andestech.learning.rfb18.g2.AppTest" />
-    </classes>
-</test>
+    <test name="PositiveTest">
+        <parameter name="fname" value="src/test/resources/testdata1.txt" />
+        <groups>
+            <run>
+                <include name="positiveTest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+        </classes>
+    </test>
 
 
     <test name="NegativeTest">
@@ -31,7 +29,5 @@
             <class name="org.andestech.learning.rfb18.g2.AppTest" />
         </classes>
     </test>
-
-
 
 </suite>
