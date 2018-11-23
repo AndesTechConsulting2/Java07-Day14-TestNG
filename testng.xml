@@ -5,17 +5,30 @@
 
 <suite name="ClassWork03" >
     <parameter name="fname" value="src/test/resources/testdata1.txt" />
+    <parameter name="fname_n" value="src/test/resources/testdata2.txt" />
 
 <test name="PositiveTest">
-    <!--<parameter name="fname" value="src/test/resources/testdata1.txt" />-->
-
+    <groups>
+        <run>
+            <include name="positiveTest" />
+        </run>
+    </groups>
     <classes>
         <class name="org.andestech.learning.rfb18.g2.AppTest" />
-
     </classes>
-
-
 </test>
+
+    <test name="NegativeTest">
+        <groups>
+            <run>
+                <include name="negativeTest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+        </classes>
+    </test>
+
 
 
 </suite>
