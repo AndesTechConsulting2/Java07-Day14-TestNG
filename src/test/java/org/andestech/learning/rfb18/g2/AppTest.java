@@ -3,10 +3,7 @@ package org.andestech.learning.rfb18.g2;
 
 import org.testng.Assert;
 import org.testng.ITestContext;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.assertTrue;
 
