@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="ClassWork03" >
+    <parameter name="fname" value="src/test/resources/testdata1.txt" />
+
+<test name="PositiveTest">
+    <!--<parameter name="fname" value="src/test/resources/testdata1.txt" />-->
+
+    <classes>
+        <class name="org.andestech.learning.rfb18.g2.AppTest" />
+
+    </classes>
+
+
+</test>
+
+
+</suite>

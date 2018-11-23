@@ -1,11 +1,21 @@
 package org.andestech.learning.rfb18.g2;
 
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
 public class Utils {
+
+    public static double summa(double a, double b)
+    {
+        return a+b;
+    }
+
+
 
    public static Object[][] getData(String fileName)  {
 
